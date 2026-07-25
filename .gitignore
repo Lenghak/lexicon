@@ -1,0 +1,55 @@
+
+.nx/installation
+.nx/cache
+.nx/workspace-data
+.nx/self-healing
+.nx/migrate-runs
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Mise
+.mise.local.toml
+
+# Editors
+.idea/
+*.swp
+
+# VS Code local overrides
+.vscode/settings.local.json
+
+# JavaScript
+node_modules/
+.nuxt/
+.output/
+.svelte-kit/
+.astro/
+dist/
+coverage/
+
+# Nx
+.nx/cache/
+
+# Java and Gradle
+.gradle/
+**/build/
+*.class
+
+# Go
+bin/
+*.test
+
+# Rust
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local certificates and keys
+*.key
+*.pem
+*.p12
+*.pfx

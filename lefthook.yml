@@ -1,0 +1,15 @@
+# EXAMPLE USAGE:
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+#
+commit-msg:
+  jobs:
+    - name: commitlint
+      run: bunx commitlint --edit {1}
+
+pre-commit:
+  parallel: true
+  jobs:
+    - name: whitespace-errors
+      run: git diff --cached --check

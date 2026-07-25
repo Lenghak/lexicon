@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "timezone": "Asia/Phnom_Penh",
+  "labels": ["dependencies"],
+  "separateMajorMinor": true,
+  "schedule": ["before 6am on monday"],
+  "packageRules": [
+    { "matchPackageNames": ["@sveltejs/*"], "groupName": "Svelte ecosystem" },
+    { "matchPackageNames": ["vitest", "@vitest/*"], "groupName": "Vitest ecosystem" }
+  ]
+}

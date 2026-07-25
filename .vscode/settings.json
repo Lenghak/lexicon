@@ -1,0 +1,23 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "sonarlint.analyzerProperties": {
+    "sonar.exclusions": "**/node_modules/**, **/vendor/**, **/*.min.js, **/build/**, **/dist/**"
+  },
+  "sonarlint.disableTelemetry": true
+}
